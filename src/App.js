@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function TwitchNotes() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='header'>
+        <div className="title-wrapper">
+          <div className='title'>Twitch Notes</div>
+        </div>
+        <div className="nav-wrapper">
+          <div className='nav-link'>Nav 1</div>
+          <div className='nav-link'>Nav 2</div>
+          <div className='nav-link'>Nav 3</div>
+          <div className='nav-link'>Nav 4</div>
+        </div>
+
+      </div>
+
+      <div className="body">
+
+      </div>
+
     </div>
   );
 }
 
-export default App;
+export default TwitchNotes;
