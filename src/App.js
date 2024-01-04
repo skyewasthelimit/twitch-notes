@@ -12,12 +12,18 @@ function TwitchNotes() {
           <div className='nav-link'>Nav 2</div>
           <div className='nav-link'>Nav 3</div>
           <div className='nav-link'>Nav 4</div>
+          <div className='nav-link'>Log-In / Sign-Up</div>
         </div>
 
       </div>
 
       <div className="body">
+          <div className="side-panel">
+  
+          </div>
+          <div className="body-main">
 
+          </div>
       </div>
 
     </div>

@@ -7,18 +7,22 @@
 
 .header {
   display: flex;
+  position: fixed;
+  z-index: 3;
 }
 
 .title-wrapper {
   background-color: #1b1b1b;
-  min-height: 10vh;
+  min-height: 8vh;
   width: 50vw;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: end;
-  font-size: calc(10px + 4vmin);
+  font-size: calc(10px + 3vmin);
   color: white;
+  border-bottom: 1px solid black;
+  z-index: 3;
 }
 
 .title {
@@ -34,10 +38,11 @@
   align-items: end;
   padding: 20px;
   justify-content: end;
-  font-size: calc(10px + 1vmin);
+  font-size: calc(8px + 1vmin);
   font-weight: 700;
   color: white;
   gap: 20px;
+  border-bottom: 1px solid black;
 }
 
 .body {
@@ -49,8 +54,25 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  z-index: 1;
 }
 
 .nav-link:hover {
   color: blueviolet;
+  cursor: pointer;
+}
+
+.body-wrapper {
+  display: flex;
+}
+
+.side-panel {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 60px;
+  background-color: #1f1e1e;
+  left: 0;
+  z-index: 2;
 }
