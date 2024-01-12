@@ -1,11 +1,14 @@
 import './App.css';
+import React, { useState } from 'react';
+import TaskTracker from './components/TaskTracker';
+
 
 function TwitchNotes() {
   return (
     <div className="App">
       <div className='header'>
         <div className="title-wrapper">
-          <div className='title'>Twitch Notes</div>
+          <div className='title'>Twitch Notes 💜</div>
         </div>
         <div className="nav-wrapper">
           <div className='nav-link'>Nav 1</div>
@@ -18,12 +21,14 @@ function TwitchNotes() {
       </div>
 
       <div className="body">
-          <div className="side-panel">
-  
-          </div>
-          <div className="body-main">
+        <div className="side-panel">
 
+        </div>
+        <div className="body-main">
+          <div className="task-container">
+            <TaskTracker />
           </div>
+        </div>
       </div>
 
     </div>
