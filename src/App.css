@@ -98,6 +98,43 @@
   border-radius: 5px;
 }
 
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.notes-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-size: 20px;
+  color: white;
+  margin-left: auto;
+  background-color: #6441a5;
+  border-radius: 6%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.notes-btn:hover {
+  background-color: #401a88;
+}
+
+.about-title {
+  font-size: 48px;
+}
+
+.about {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid #6441a5;
+  padding: 30px;
+  border-radius: 5px;
+}
+
 .btn {
   display: inline-block;
   background: #6441a5;

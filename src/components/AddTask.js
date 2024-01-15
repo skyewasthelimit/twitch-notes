@@ -53,7 +53,7 @@ const onSubmit = (e) => {
           checked)}  />
       </div>
 
-      <input type='submit' value='Save Task'
+      <input type='submit' value='Save Note'
       className='btn btn-block' />
     </form>
   )
